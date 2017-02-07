@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A831E1F91E4A049600B82067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A831E1F81E4A049600B82067 /* AppDelegate.swift */; };
+		A831E1FB1E4A049600B82067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A831E1FA1E4A049600B82067 /* ViewController.swift */; };
+		A831E1FE1E4A049600B82067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A831E1FC1E4A049600B82067 /* Main.storyboard */; };
+		A831E2001E4A049600B82067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A831E1FF1E4A049600B82067 /* Assets.xcassets */; };
+		A831E2031E4A049600B82067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A831E2011E4A049600B82067 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A831E1F51E4A049500B82067 /* buddies-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buddies-ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A831E1F81E4A049600B82067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A831E1FA1E4A049600B82067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A831E1FD1E4A049600B82067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A831E1FF1E4A049600B82067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A831E2021E4A049600B82067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A831E2041E4A049600B82067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A831E1F21E4A049500B82067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A831E1EC1E4A049500B82067 = {
+			isa = PBXGroup;
+			children = (
+				A831E1F71E4A049600B82067 /* buddies-ios */,
+				A831E1F61E4A049600B82067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A831E1F61E4A049600B82067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A831E1F51E4A049500B82067 /* buddies-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A831E1F71E4A049600B82067 /* buddies-ios */ = {
+			isa = PBXGroup;
+			children = (
+				A831E1F81E4A049600B82067 /* AppDelegate.swift */,
+				A831E1FA1E4A049600B82067 /* ViewController.swift */,
+				A831E1FC1E4A049600B82067 /* Main.storyboard */,
+				A831E1FF1E4A049600B82067 /* Assets.xcassets */,
+				A831E2011E4A049600B82067 /* LaunchScreen.storyboard */,
+				A831E2041E4A049600B82067 /* Info.plist */,
+			);
+			path = buddies-ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A831E1F41E4A049500B82067 /* buddies-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A831E2071E4A049600B82067 /* Build configuration list for PBXNativeTarget "buddies-ios" */;
+			buildPhases = (
+				A831E1F11E4A049500B82067 /* Sources */,
+				A831E1F21E4A049500B82067 /* Frameworks */,
+				A831E1F31E4A049500B82067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buddies-ios;
+			productName = buddies-ios;
+			productReference = A831E1F51E4A049500B82067 /* buddies-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A831E1ED1E4A049500B82067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TEKsystems;
+				TargetAttributes = {
+					A831E1F41E4A049500B82067 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7LZFK89VA9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A831E1F01E4A049500B82067 /* Build configuration list for PBXProject "buddies-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A831E1EC1E4A049500B82067;
+			productRefGroup = A831E1F61E4A049600B82067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A831E1F41E4A049500B82067 /* buddies-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A831E1F31E4A049500B82067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A831E2031E4A049600B82067 /* LaunchScreen.storyboard in Resources */,
+				A831E2001E4A049600B82067 /* Assets.xcassets in Resources */,
+				A831E1FE1E4A049600B82067 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A831E1F11E4A049500B82067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A831E1FB1E4A049600B82067 /* ViewController.swift in Sources */,
+				A831E1F91E4A049600B82067 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A831E1FC1E4A049600B82067 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A831E1FD1E4A049600B82067 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A831E2011E4A049600B82067 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A831E2021E4A049600B82067 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A831E2051E4A049600B82067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A831E2061E4A049600B82067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A831E2081E4A049600B82067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LZFK89VA9;
+				INFOPLIST_FILE = buddies-ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teksystems.buddies-ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A831E2091E4A049600B82067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LZFK89VA9;
+				INFOPLIST_FILE = buddies-ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teksystems.buddies-ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A831E1F01E4A049500B82067 /* Build configuration list for PBXProject "buddies-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A831E2051E4A049600B82067 /* Debug */,
+				A831E2061E4A049600B82067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A831E2071E4A049600B82067 /* Build configuration list for PBXNativeTarget "buddies-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A831E2081E4A049600B82067 /* Debug */,
+				A831E2091E4A049600B82067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A831E1ED1E4A049500B82067 /* Project object */;
+}

@@ -10,6 +10,6 @@ public class HelloResource {
 
     @GetMapping("/api/hello/{name}")
     public String hello(@PathVariable String name){
-        return "Hello, "+name+" !";
+        return "Hello I am here , "+name+" !";
     }
 }
