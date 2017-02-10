@@ -13,6 +13,11 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    
+    let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self,
+                                                             action: #selector(ViewController.dismissKeyboard))
+    view.addGestureRecognizer(tap)
+    
   }
 
   override func didReceiveMemoryWarning() {
@@ -24,6 +29,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var myLabel: UILabel!
   
   @IBAction func fetchButtonClicked(_ sender: AnyObject) {
+    self.dismissKeyboard()
     
     let urlString = "http://localhost:8080/api/hello/\(myTextView.text!)"
     var request = URLRequest(url: URL(string: urlString)!)
@@ -38,6 +44,10 @@ class ViewController: UIViewController {
       
     }.resume()
     
+  }
+  
+  func dismissKeyboard() {
+    view.endEditing(true)
   }
 
 }
