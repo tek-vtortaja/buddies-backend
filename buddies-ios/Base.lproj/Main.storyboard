@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="buddies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="buddies_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -25,16 +25,14 @@
                                     <action selector="fetchButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uq1-uU-oA7"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q8V-wa-pMB">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q8V-wa-pMB">
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkB-5K-sBS">
-                                <frame key="frameInset" minX="48" minY="123" width="269" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkB-5K-sBS">
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <color key="textColor" red="0.33487433227067243" green="1" blue="0.97454238153009853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -42,8 +40,11 @@
                         <constraints>
                             <constraint firstItem="Uqw-b4-ggp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7FI-7S-cpn"/>
                             <constraint firstItem="Uqw-b4-ggp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TWO-E9-cup"/>
+                            <constraint firstItem="dkB-5K-sBS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ufl-qd-C04"/>
                             <constraint firstItem="q8V-wa-pMB" firstAttribute="centerX" secondItem="Uqw-b4-ggp" secondAttribute="centerX" id="a1I-Oa-TiH"/>
                             <constraint firstItem="q8V-wa-pMB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="94" id="gey-l7-ocG"/>
+                            <constraint firstItem="q8V-wa-pMB" firstAttribute="top" secondItem="dkB-5K-sBS" secondAttribute="bottom" constant="64" id="ljf-BQ-gTt"/>
+                            <constraint firstItem="dkB-5K-sBS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="rU0-lV-VK2"/>
                             <constraint firstItem="Uqw-b4-ggp" firstAttribute="top" secondItem="q8V-wa-pMB" secondAttribute="bottom" constant="81" id="vQ9-RO-vxD"/>
                         </constraints>
                     </view>
